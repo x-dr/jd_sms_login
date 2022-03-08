@@ -4,15 +4,15 @@
     "keywords": ["jd_sms_login"],
     "env": {
       "QYWX_KEY": {
-         "description": "QYWX_KEY",
-         "value": "QYWX_KEY"
+         "description": "可不填，此处填你企业微信机器人的 webhook(详见文档 https://work.weixin.qq.com/api/doc/90000/90136/91770)，例如：693a91f6-7xxx-4bc4-97a0-0ec2sifa5aaa",
+         "value": ""
       },
       "QYWX_AM": {
-         "description": "QYWX_AM",
-         "value": "root"
+         "description": "可不填，下方填写素材库图片id（corpid,corpsecret,touser,agentid），素材库图片填0为图文消息, 填1为纯文本消息,参考文档：http://note.youdao.com/s/HMiudGkb",
+         "value": ""
       }
     },
     "website": "https://github.com/x-dr/jd_sms_login.git",
     "repository": "https://github.com/x-dr/jd_sms_login.git",
-    "stack": "web"
+    "image": "heroku/nodejs"
   }
