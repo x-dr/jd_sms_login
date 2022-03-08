@@ -1,0 +1,18 @@
+{
+    "name": "jd_sms_login",
+    "description": "jd_sms_login on Heroku",
+    "keywords": ["jd_sms_login"],
+    "env": {
+      "QYWX_KEY": {
+         "description": "QYWX_KEY",
+         "value": "QYWX_KEY"
+      },
+      "QYWX_AM": {
+         "description": "QYWX_AM",
+         "value": "root"
+      }
+    },
+    "website": "https://github.com/x-dr/jd_sms_login.git",
+    "repository": "https://github.com/x-dr/jd_sms_login.git",
+    "stack": "web"
+  }
